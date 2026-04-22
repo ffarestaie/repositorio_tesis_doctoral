@@ -31,3 +31,26 @@ Este macro de ImageJ/Fiji realiza el preprocesamiento batch de imágenes para el
 ## Output
 
 - carpeta con stacks TIFF binarios listos para cuantificación de cobertura microglial en Python.
+
+---
+# Contactos microglía-dendrita
+
+## Descripción
+
+Este macro de ImageJ/Fiji realiza el preprocesamiento batch de imágenes para el análisis de contactos microglia-dendrita. Separa los canales GFP e Iba1, convierte ambos a 8 bits, aplica substracción de background, binariza cada canal, limpia la máscara de GFP conservando la región principal y genera un TIFF multicanal binario por archivo.
+
+## Input
+
+- carpeta con imágenes multicanal en formato `.tif` o `.tiff`;
+- convención de canales:
+  - `C1`: GFP;
+  - `C2`: Iba1.
+
+## Output
+
+- carpeta con archivos TIFF multicanal binarios listos para cuantificación de contactos microglia-dendrita.
+
+## Requisitos
+
+- Fiji/ImageJ;
+- plugin MorphoLibJ para los pasos de componentes conectados y conservación de la región principal.
