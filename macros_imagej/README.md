@@ -16,3 +16,18 @@ Estas macros se utilizan como etapa previa a la extracción de métricas cuantit
 ## Nota
 
 La descripción metodológica resumida de cada análisis se encuentra en `documentacion/protocolos/`.
+
+---
+# Cobertura microglial
+
+## Descripción
+
+Este macro de ImageJ/Fiji realiza el preprocesamiento batch de imágenes para el análisis de cobertura microglial. Separa canales, conserva el canal de Iba1, convierte las imágenes a 8 bits, aplica substracción de background, binariza el stack y guarda un TIFF binario por archivo.
+
+## Input
+
+- carpeta con imágenes multicanal en formato `.tif` o `.tiff`.
+
+## Output
+
+- carpeta con stacks TIFF binarios listos para cuantificación de cobertura microglial en Python.
