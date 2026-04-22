@@ -146,3 +146,5 @@ IFIBIO Houssay, Universidad de Buenos Aires - CONICET
 ## Observaciones
 
 Este repositorio fue concebido como complemento metodológico de la tesis y no como un paquete de software formal. Por ese motivo, algunos scripts pueden requerir adaptación menor de rutas, nombres de archivos o tablas de metadata para su reutilización en otros conjuntos de datos.
+
+En caso de detectar fallas o inconsistencias, por favor comunicarlo a ffarestaie@fmed.uba.ar
