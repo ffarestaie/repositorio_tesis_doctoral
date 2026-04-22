@@ -1,238 +1,134 @@
-# PhD_project
-PhD project analysis scripts
+# repositorio_tesis_doctoral
+
+Este repositorio reúne los scripts, macros de ImageJ/Fiji y documentación asociados a los análisis realizados en mi tesis doctoral. Su objetivo es organizar de manera clara los procedimientos computacionales utilizados para el procesamiento de imágenes, la extracción de métricas cuantitativas, el análisis conductual y los análisis estadísticos complementarios.
+
+## Contenido del repositorio
+
+El repositorio incluye:
+
+- macros de ImageJ/Fiji para preprocesamiento y procesamiento batch de imágenes;
+- scripts en Python para análisis de métricas derivadas de imágenes, análisis multivariado conductual y análisis estadísticos;
+- scripts en R para análisis específicos complementarios;
+- protocolos resumidos de los análisis incluidos en la tesis;
+- documentación que vincula cada archivo con los análisis y métricas reportados en el manuscrito.
+
+## Estructura general
+
+```text
+repositorio_tesis_doctoral/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requisitos_python.txt
+│
+├── documentacion/
+│   ├── vision_general.md
+│   ├── correspondencia_con_tesis.md
+│   ├── protocolos/
+│   └── fuentes/
+│
+├── macros_imagej/
+│   ├── README.md
+│   ├── procesamiento_cobertura_microglial.ijm
+│   ├── procesamiento_contactos_microglia_dendrita.ijm
+│   ├── procesamiento_colocalizacion_gfp_iba1.ijm
+│   └── procesamiento_espinas_dendriticas.ijm
+│
+├── scripts_python/
+│   ├── README.md
+│   ├── analisis_multivariado_longitudinal.py
+│   ├── calcular_cobertura_microglial.py
+│   ├── calcular_contactos_exp_001.py
+│   ├── calcular_contactos_exp_002.py
+│   ├── analisis_subtipos_espinas_exp_001.py
+│   ├── analisis_subtipos_espinas_exp_002.py
+│   └── analisis_estadistico_general.py
+│
+├── scripts_r/
+│   ├── README.md
+│   ├── contar_subtipos_espinas.R
+│   └── calcular_vecino_mas_cercano.R
+│
+└── ejemplos/
+    ├── entradas_ejemplo/
+    └── salidas_ejemplo/
+
+Tipos de análisis incluidos
+Análisis de imágenes
+cuantificación de denervación dopaminérgica mediante TH;
+cuantificación de cobertura microglial;
+cuantificación de contactos microglia-dendrita;
+cuantificación de colocalización GFP-Iba1 en somas microgliales;
+reconstrucción 3D de microglía y extracción de métricas morfológicas;
+cuantificación de densidad microglial;
+cálculo de distancia al vecino más cercano;
+cuantificación de espinas dendríticas y análisis de subtipos.
+Análisis conductuales
+índice de rotaciones en open field;
+índice de uso de miembros anteriores en el test del cilindro;
+análisis multivariado longitudinal de conducta.
+Análisis estadísticos
+análisis estadísticos generales;
+análisis específicos de distribución de subtipos de espinas.
+Organización del flujo de trabajo
+
+En términos generales, los análisis siguen una de estas lógicas:
+
+preprocesamiento de imágenes con macros de ImageJ/Fiji
+extracción o cálculo de métricas con scripts en Python o R
+análisis estadístico y generación de resultados
+
+Cada carpeta incluye documentación específica sobre:
+
+qué hace cada archivo;
+qué tipo de input espera;
+qué output produce;
+a qué análisis de la tesis corresponde.
+Relación con la tesis
+
+Este repositorio fue organizado para complementar la descripción metodológica de la tesis doctoral. La correspondencia entre los archivos aquí incluidos y los análisis reportados en el manuscrito se detalla en:
+
+documentacion/correspondencia_con_tesis.md
+
+Los protocolos resumidos asociados a cada análisis se encuentran en:
+
+documentacion/protocolos/
+
+Requisitos y dependencias
+
+Los scripts incluidos fueron desarrollados principalmente en Python, R y Fiji/ImageJ.
+
+Software utilizado
+Python [COMPLETAR: versión]
+R [COMPLETAR: versión]
+Fiji/ImageJ
+NeuronStudio [cuando corresponda]
+Neurolucida 360 / Neurolucida Explorer [cuando corresponda]
+Paquetes de Python
 
-🧠 Microglia–Synapse Structural Analysis Workflows
+Las dependencias principales pueden listarse en:
 
-This repository contains the complete computational workflows used to quantify and analyze structural remodeling in experimental models of Parkinson’s disease, with a focus on:
+requisitos_python.txt
 
-Microglia–dendrite spatial interactions
+[COMPLETAR: agregar librerías efectivamente utilizadas, por ejemplo pandas, numpy, matplotlib, scikit-image, scipy, statsmodels, openpyxl, etc.]
 
-Microglial field coverage
+Datos
 
-Dendritic spine subtype distributions
+Este repositorio no incluye los datos crudos completos utilizados en la tesis. Los scripts y macros se comparten con fines de transparencia metodológica, organización del flujo analítico y apoyo a la reproducibilidad.
 
-Multivariate phenotypic clustering
+Cuando corresponde, pueden incluirse ejemplos mínimos de entrada y salida en la carpeta:
 
-Statistical modeling (ANOVA, GLM, LMM)
+ejemplos/
 
-The codebase integrates image-derived metrics, categorical distribution analysis, unsupervised multivariate modeling, and mixed-effects statistical inference into a reproducible analysis framework.
+Estado del repositorio
 
-🎯 Project Scope
+Este repositorio contiene versiones organizadas de los scripts y macros utilizados durante el doctorado. Algunos archivos fueron adaptados para mejorar su legibilidad, documentación y reutilización.
 
-The biological objective of these pipelines is to quantify structural plasticity and microglia-mediated remodeling under different experimental conditions.
+Autor
 
-The computational workflows are organized into three major analytical layers:
+Félix Fares Taie
+[COMPLETAR si querés agregar afiliación institucional]
 
-Image-derived structural metrics
+Observaciones
 
-Distributional / compositional statistics
-
-Multivariate phenotypic modeling
-
-Inferential statistical modeling
-
-Each layer operates at a different level of biological abstraction and data structure.
-
-🧩 Repository Architecture
-
-The repository contains independent but interoperable notebooks and scripts grouped conceptually into:
-
-1️⃣ Image-Based Quantification
-
-These scripts operate on binarized TIFF images and produce quantitative structural metrics.
-
-Microglia–Dendrite Contact
-
-Slice-wise 2D proximity-based contact definition
-
-Contact area fractions
-
-Patch-level metrics
-
-Contact efficiency indices
-
-Microglial Field Coverage
-
-Global field occupancy fraction
-
-Area-normalized metrics
-
-Outputs from this layer are structured tabular datasets designed for downstream statistical modeling.
-
-2️⃣ Distributional Analysis of Spine Subtypes
-
-Categorical analysis of spine subtype distributions across experimental conditions.
-
-Methods include:
-
-Contingency tables
-
-Chi-square tests
-
-Log-linear (Poisson GLM) modeling
-
-Wald tests for interaction effects
-
-This module evaluates compositional shifts rather than continuous structural changes.
-
-3️⃣ Unsupervised Multivariate Modeling
-
-Phenotypic state modeling using high-dimensional feature spaces.
-
-Workflows include:
-
-Feature filtering (variance + collinearity control)
-
-Scaling strategies (global or baseline-anchored)
-
-PCA dimensionality reduction
-
-Clustering approaches:
-
-K-means
-
-Hierarchical clustering
-
-Fuzzy C-means
-
-These analyses model structural states and trajectories in latent space.
-
-4️⃣ Statistical Modeling Framework
-
-Centralized statistical workflow for hypothesis testing and visualization.
-
-Includes:
-
-Cell-level ANOVA
-
-Animal-level ANOVA
-
-Mixed Linear Models (random intercept by animal)
-
-Cluster-robust standard errors
-
-Holm-corrected post-hoc comparisons
-
-Diagnostic residual analysis
-
-The design explicitly addresses nested data structures (cells within animals).
-
-📊 Data Hierarchy
-
-The repository handles multiple biological scales:
-
-Level	Unit of Analysis
-Pixel	Binary masks
-Field	Imaging field
-Dendrite	Individual dendritic segment
-Cell	Single neuron
-Animal	Experimental subject
-Group	Experimental condition
-
-Statistical modeling decisions vary accordingly.
-
-⚙️ Reproducibility Principles
-
-All workflows follow these principles:
-
-Explicit parameter blocks at top of scripts
-
-Automated output directory generation
-
-Snapshot of input dataset saved in each run
-
-Export of QC tables and diagnostics
-
-No silent data exclusion
-
-Clear separation between:
-
-preprocessing
-
-metric computation
-
-modeling
-
-visualization
-
-🧪 Experimental Modes
-
-The code supports multiple experimental designs:
-
-EXP-001
-
-Week-based design
-
-Optional hemisphere factor
-
-Optional MSN subtype stratification
-
-EXP-002
-
-Factorial treatment1 × treatment2 design
-
-Optional MSN subtype
-
-The statistical workflow adapts formulas automatically to the detected structure.
-
-🛠️ Requirements
-
-Core dependencies:
-
-Python ≥ 3.9
-
-numpy
-
-pandas
-
-matplotlib
-
-seaborn
-
-scipy
-
-scikit-learn
-
-scikit-image
-
-statsmodels
-
-openpyxl
-
-Recommended:
-
-JupyterLab
-
-🔁 Typical Workflow
-
-Generate image-derived metrics (contact or coverage).
-
-Export consolidated dataset.
-
-Run graphs&stats for statistical modeling and figures.
-
-(Optional) Run clustering workflows for multivariate state modeling.
-
-(Optional) Run subtype distribution analysis for compositional statistics.
-
-🧠 Conceptual Philosophy
-
-The repository separates:
-
-Geometric metrics (contact, coverage)
-
-Compositional metrics (spine subtype distributions)
-
-Latent multivariate states (clustering)
-
-Inferential modeling (ANOVA / LMM)
-
-Each analytical layer answers a different biological question.
-
-📌 Notes
-
-These workflows were developed for structural plasticity analysis in rodent models of dopaminergic degeneration.
-
-The repository is organized for thesis-level reproducibility.
-
-All scripts include detailed headers describing internal logic.
+Este repositorio fue concebido como complemento metodológico de la tesis y no como un paquete de software formal. Por ese motivo, algunos scripts pueden requerir adaptación menor de rutas, nombres de archivos o tablas de metadata para su reutilización en otros conjuntos de datos.
