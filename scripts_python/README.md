@@ -41,7 +41,7 @@ Este script realiza un análisis multivariado longitudinal de variables conductu
 - figuras de apoyo para visualización y control de calidad.
 
 
-# calcular_cobertura_microglial.py
+# Cobertura microglial
 
 ## Descripción
 
