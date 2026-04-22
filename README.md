@@ -75,8 +75,7 @@ repositorio_tesis_doctoral/
 
 ### Análisis estadísticos
 
-- análisis estadísticos generales;
-- análisis específicos de distribución de subtipos de espinas.
+- análisis estadísticos.
 
 ## Organización del flujo de trabajo
 
