@@ -56,25 +56,25 @@ repositorio_tesis_doctoral/
 ## Tipos de análisis incluidos
 ### Análisis de imágenes
 
-cuantificación de denervación dopaminérgica mediante TH;
-cuantificación de cobertura microglial;
-cuantificación de contactos microglia-dendrita;
-cuantificación de colocalización GFP-Iba1 en somas microgliales;
-reconstrucción 3D de microglía y extracción de métricas morfológicas;
-cuantificación de densidad microglial;
-cálculo de distancia al vecino más cercano;
-cuantificación de espinas dendríticas y análisis de subtipos.
+- cuantificación de denervación dopaminérgica mediante TH;
+- cuantificación de cobertura microglial;
+- cuantificación de contactos microglia-dendrita;
+- cuantificación de colocalización GFP-Iba1 en somas microgliales;
+- reconstrucción 3D de microglía y extracción de métricas morfológicas;
+- cuantificación de densidad microglial;
+- cálculo de distancia al vecino más cercano;
+- cuantificación de espinas dendríticas y análisis de subtipos.
 
 ### Análisis conductuales
 
-índice de rotaciones en open field;
-índice de uso de miembros anteriores en el test del cilindro;
-análisis multivariado longitudinal de conducta.
+- índice de rotaciones en open field;
+- índice de uso de miembros anteriores en el test del cilindro;
+- análisis multivariado longitudinal de conducta.
 
 ### Análisis estadísticos
 
-análisis estadísticos generales;
-análisis específicos de distribución de subtipos de espinas.
+- análisis estadísticos generales;
+- análisis específicos de distribución de subtipos de espinas.
 
 ## Organización del flujo de trabajo
 
@@ -86,38 +86,39 @@ En términos generales, los análisis siguen una de estas lógicas:
 
 Cada carpeta incluye documentación específica sobre:
 
-qué hace cada archivo;
-qué tipo de input espera;
-qué output produce;
-a qué análisis de la tesis corresponde.
+- qué hace cada archivo;
+- qué tipo de input espera;
+- qué output produce;
+- a qué análisis de la tesis corresponde.
 
 ## Relación con la tesis
 
 Este repositorio fue organizado para complementar la descripción metodológica de la tesis doctoral. La correspondencia entre los archivos aquí incluidos y los análisis reportados en el manuscrito se detalla en:
-
+```text
 documentacion/correspondencia_con_tesis.md
-
+```
 Los protocolos resumidos asociados a cada análisis se encuentran en:
-
+```text
 documentacion/protocolos/
-
+```
 ## Requisitos y dependencias
 
 Los scripts incluidos fueron desarrollados principalmente en Python, R y Fiji/ImageJ.
 
 ## Software utilizado
-Python [COMPLETAR: versión]
-R [COMPLETAR: versión]
-Fiji/ImageJ
-NeuronStudio [cuando corresponda]
-Neurolucida 360 / Neurolucida Explorer [cuando corresponda]
+
+- Python [COMPLETAR: versión]
+- R [COMPLETAR: versión]
+- Fiji/ImageJ
+- NeuronStudio [cuando corresponda]
+- Neurolucida 360 / Neurolucida Explorer [cuando corresponda]
 
 ## Paquetes de Python
 
 Las dependencias principales pueden listarse en:
-
+```text
 requisitos_python.txt
-
+```
 [COMPLETAR: agregar librerías efectivamente utilizadas, por ejemplo pandas, numpy, matplotlib, scikit-image, scipy, statsmodels, openpyxl, etc.]
 
 ## Datos
@@ -125,9 +126,9 @@ requisitos_python.txt
 Este repositorio no incluye los datos crudos completos utilizados en la tesis. Los scripts y macros se comparten con fines de transparencia metodológica, organización del flujo analítico y apoyo a la reproducibilidad.
 
 Cuando corresponde, pueden incluirse ejemplos mínimos de entrada y salida en la carpeta:
-
+```text
 ejemplos/
-
+```
 ## Estado del repositorio
 
 Este repositorio contiene versiones organizadas de los scripts y macros utilizados durante el doctorado. Algunos archivos fueron adaptados para mejorar su legibilidad, documentación y reutilización.
@@ -135,7 +136,7 @@ Este repositorio contiene versiones organizadas de los scripts y macros utilizad
 ## Autor
 
 Félix Fares Taie
-[COMPLETAR si querés agregar afiliación institucional]
+IFIBIO Houssay, Universidad de Buenos Aires - CONICET
 
 ## Observaciones
 
