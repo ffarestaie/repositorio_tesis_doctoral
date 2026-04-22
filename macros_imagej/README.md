@@ -73,3 +73,18 @@ Este macro de ImageJ/Fiji realiza el procesamiento batch de imágenes para cuant
 
 - archivo `.csv` con el área colocalizada por imagen;
 - imágenes de control tipo overlay para inspección visual.
+
+---
+# Espinas dendríticas
+
+## Descripción
+
+Este macro de ImageJ/Fiji realiza el procesamiento de imágenes de dendritas para su posterior cuantificación en NeuronStudio. Incluye conversión a 8 bits, rotación, recorte de la región de interés, ajuste de contraste y substracción de background.
+
+## Input
+
+- imágenes de dendritas en formato compatible con Fiji/ImageJ.
+
+## Output
+
+- imágenes TIFF procesadas del segmento dendrítico de interés, listas para cuantificación de espinas.
