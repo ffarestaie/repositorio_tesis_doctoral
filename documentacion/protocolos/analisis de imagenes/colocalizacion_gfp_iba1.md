@@ -8,8 +8,8 @@ Cuantificar la señal GFP colocalizada con Iba1 en imágenes multicanal de micro
 
 - imágenes de campo adquiridas con objetivo 40X en stacks Z de 10 planos, con 2 µm por plano;
 - software Fiji/ImageJ;
-- canal 1: Iba1;
-- canal 2: GFP;
+- canal 1: GFP;
+- canal 2: Iba1;
 - salida intermedia: imágenes TIFF recortadas, una por microglía seleccionada.
 
 ## Procedimiento
