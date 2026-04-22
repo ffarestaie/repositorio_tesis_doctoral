@@ -46,15 +46,13 @@ repositorio_tesis_doctoral/
 │   ├── calcular_contactos_exp_002.py
 │   └── analisis_estadistico_general.py
 │
-├── scripts_r/
-│   ├── README.md
-│   ├── requisitos_r.md
-│   ├── contar_subtipos_espinas.R
-│   └── calcular_vecino_mas_cercano.R
-│
-└── ejemplos/
-    ├── entradas_ejemplo/
-    └── salidas_ejemplo/
+└── scripts_r/
+    ├── README.md
+    ├── requisitos_r.md
+    ├── contar_subtipos_espinas.R
+    └── calcular_vecino_mas_cercano.R
+
+
 ```
 ## Tipos de análisis incluidos
 ### Análisis de imágenes
