@@ -54,3 +54,22 @@ Este macro de ImageJ/Fiji realiza el preprocesamiento batch de imágenes para el
 
 - Fiji/ImageJ;
 - plugin MorphoLibJ para los pasos de componentes conectados y conservación de la región principal.
+
+---
+# Colocalización GFP-Iba1
+
+## Descripción
+
+Este macro de ImageJ/Fiji realiza el procesamiento batch de imágenes para cuantificación de colocalización GFP-Iba1 en somas microgliales. Separa canales, genera proyecciones máximas, corrige background, binariza cada canal, calcula la intersección lógica entre ambas máscaras y guarda un archivo de resultados junto con una imagen de control por campo.
+
+## Input
+
+- carpeta con imágenes multicanal en formato `.tif` o `.tiff`;
+- convención de canales:
+  - `C1`: GFP;
+  - `C2`: Iba1.
+
+## Output
+
+- archivo `.csv` con el área colocalizada por imagen;
+- imágenes de control tipo overlay para inspección visual.
