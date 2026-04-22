@@ -25,7 +25,6 @@ repositorio_tesis_doctoral/
 │   ├── vision_general.md
 │   ├── correspondencia_con_tesis.md
 │   ├── parametros_adquisicion_microscopica.md
-│   ├── requisitos_python.md
 │   └── protocolos/
 │        ├── analisis conductual
 │        ├── analisis de imagenes 
@@ -40,6 +39,7 @@ repositorio_tesis_doctoral/
 │
 ├── scripts_python/
 │   ├── README.md
+│   ├── requisitos_python.txt
 │   ├── analisis_multivariado_longitudinal.py
 │   ├── calcular_cobertura_microglial.py
 │   ├── calcular_contactos_exp_001.py
