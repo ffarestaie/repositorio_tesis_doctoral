@@ -79,7 +79,7 @@ Este script calcula métricas de contacto microglia-dendrita a partir de imágen
 - archivos `.pdf` con gráficos descriptivos por grupo experimental y por subtipo celular, cuando corresponda.
 
 ---
-Análisis estadístico
+# Análisis estadístico
 
 ## Descripción
 
