@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*~
+
+# Archivos de salida no versionados
+outputs/
+resultados/
+figuras/
+graficos/
+tablas/
+reportes/
+
+# Datos pesados o locales
+datos_crudos/
+datos_intermedios/
+datos_locales/
