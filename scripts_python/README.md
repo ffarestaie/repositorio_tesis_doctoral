@@ -61,11 +61,11 @@ Este script cuantifica la cobertura microglial a partir de imágenes TIFF binari
 - archivo `microglia_coverage_plots.pdf` con gráficos exploratorios por animal.
 
 ---
-# Contactos microglia-dendrita
+# Contactos microglía-dendrita
 
 ## Descripción
 
-Este script calcula métricas de contacto microglia-dendrita a partir de imágenes TIFF binarias multicanal correspondientes a EXP-002. A partir de las máscaras de dendrita y microglía, estima el área dendrítica total, el área dendrítica en contacto, la fracción de área de contacto, la cobertura microglial global y el índice de eficiencia de contacto.
+Este script calcula métricas de contacto microglía-dendrita a partir de imágenes TIFF binarias multicanal correspondientes a EXP-002. A partir de las máscaras de dendrita y microglía, estima el área dendrítica total, el área dendrítica en contacto, la fracción de área de contacto, la cobertura microglial global y el índice de eficiencia de contacto.
 
 ## Input
 
