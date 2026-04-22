@@ -39,7 +39,7 @@ repositorio_tesis_doctoral/
 │
 ├── scripts_python/
 │   ├── README.md
-│   ├── requisitos_python.txt
+│   ├── requisitos_python.md
 │   ├── analisis_multivariado_longitudinal.py
 │   ├── calcular_cobertura_microglial.py
 │   ├── calcular_contactos_exp_001.py
@@ -48,6 +48,7 @@ repositorio_tesis_doctoral/
 │
 ├── scripts_r/
 │   ├── README.md
+│   ├── requisitos_r.md
 │   ├── contar_subtipos_espinas.R
 │   └── calcular_vecino_mas_cercano.R
 │
