@@ -26,7 +26,7 @@ Contiene scripts en Python utilizados para cálculo de métricas, análisis cond
 Contiene scripts en R utilizados para análisis específicos complementarios.
 
 ### 4. `documentacion/`
-Contiene documentación general del repositorio, protocolos resumidos asociados a cada análisis y materiales fuente utilizados para construir esa documentación.
+Contiene documentación general del repositorio, protocolos resumidos asociados a cada análisis y condiciones de adquisición microscópica.
 
 ## Lógica general de uso
 
@@ -48,6 +48,9 @@ En `documentacion/protocolos/` se encuentran descripciones resumidas de los aná
 
 ### Correspondencia con la tesis
 En `documentacion/correspondencia_con_tesis.md` se detalla la relación entre los archivos del repositorio y los análisis reportados en el manuscrito de la tesis.
+
+### Parámetros de adquisición microscópica
+En `documentacion/parametros_adquisicion_microscopica.md` se resumen las condiciones de adquisición utilizadas para generar las imágenes que sirvieron de entrada a los análisis del repositorio.
 
 ## Alcance del repositorio
 
