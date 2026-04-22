@@ -19,7 +19,7 @@ Cuantificar la fracción del área del campo ocupada por señal microglial en im
 4. Separar canales y conservar el canal microglial.
 5. Convertir el stack a 8 bits.
 6. Aplicar substracción de background con radio 50 px, opción `sliding` y procesamiento del stack completo.
-7. Umbralizar cada plano Z con método `Otsu` en modo `dark`.
+7. Umbralizar cada plano Z con método `Li` en modo `dark`.
 8. Convertir el stack a máscara binaria calculando el umbral por `slice`.
 9. Guardar el stack binario resultante como TIFF.
 10. AQUI TERMINA EL MACRO
@@ -43,7 +43,7 @@ El script en Python carga cada TIFF binario y calcula la cobertura microglial to
 - Las imágenes deben tener la misma escala y corresponder a campos previamente recortados de manera comparable.
 - El área total se define como el frame completo; no se aplica máscara adicional de tejido.
 - La substracción de background debe realizarse con radio 50 px.
-- La umbralización debe aplicarse por `slice` con método `Otsu` en modo `dark`.
+- La umbralización debe aplicarse por `slice` con método `Li` en modo `dark`.
 
 ## Control de calidad
 
