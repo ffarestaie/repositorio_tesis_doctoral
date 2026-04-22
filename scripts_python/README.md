@@ -18,6 +18,7 @@ Cada script está asociado a un análisis específico y puede requerir archivos 
 
 La relación entre estos scripts y los análisis reportados en la tesis se resume en `documentacion/correspondencia_con_tesis.md`.
 
+
 # Análisis multivariado longitudinal de la conducta
 
 ## Descripción
@@ -38,3 +39,21 @@ Este script realiza un análisis multivariado longitudinal de variables conductu
 - asignación dura de clúster;
 - métricas de cambio longitudinal;
 - figuras de apoyo para visualización y control de calidad.
+
+
+# calcular_cobertura_microglial.py
+
+## Descripción
+
+Este script cuantifica la cobertura microglial a partir de imágenes TIFF binarias. Calcula la fracción del campo ocupada por señal microglial en cada stack, genera una tabla resumen por archivo, una tabla de control de calidad por slice y un PDF con gráficos exploratorios por animal.
+
+## Input
+
+- carpeta con archivos TIFF binarios;
+- archivo `.xlsx` con metadata por animal, incluyendo las columnas `animal` y `semana`.
+
+## Output
+
+- archivo `microglia_coverage_summary.csv` con una fila por imagen;
+- archivo `microglia_coverage_per_slice.csv` con una fila por slice;
+- archivo `microglia_coverage_plots.pdf` con gráficos exploratorios por animal.
