@@ -19,6 +19,7 @@ El repositorio incluye:
 repositorio_tesis_doctoral/
 ├── README.md
 ├── LICENSE
+├── .gitignore
 │
 ├── documentacion/
 │   ├── vision_general.md
