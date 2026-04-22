@@ -1,13 +1,15 @@
-numpy
-pandas
-matplotlib
-seaborn
-scipy
-scikit-image
-scikit-learn
-scikit-fuzzy
-statsmodels
-openpyxl
-tqdm
-tifffile
-tkinter
+pip install(
+      numpy
+      pandas
+      matplotlib
+      seaborn
+      scipy
+      scikit-image
+      scikit-learn
+      scikit-fuzzy
+      statsmodels
+      openpyxl
+      tqdm
+      tifffile
+      tkinter
+)
