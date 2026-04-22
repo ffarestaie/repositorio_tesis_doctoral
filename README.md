@@ -19,16 +19,17 @@ El repositorio incluye:
 repositorio_tesis_doctoral/
 ├── README.md
 ├── LICENSE
-├── .gitignore
-├── requisitos_python.txt
 │
 ├── documentacion/
 │   ├── vision_general.md
 │   ├── correspondencia_con_tesis.md
 │   ├── parametros_adquisicion_microscopica.md
-│   ├── protocolos/
-│   └── fuentes/
-│
+│   ├── requisitos_python.md
+│   └── protocolos/
+│        ├── analisis conductual
+│        ├── analisis de imagenes 
+│        └── analsis_estadistico.md
+│ 
 ├── macros_imagej/
 │   ├── README.md
 │   ├── procesamiento_cobertura_microglial.ijm
@@ -110,11 +111,11 @@ Los scripts incluidos fueron desarrollados principalmente en Python, R y Fiji/Im
 
 ## Software utilizado
 
-- Python [COMPLETAR: versión]
-- R [COMPLETAR: versión]
+- Python
+- R
 - Fiji/ImageJ
-- NeuronStudio [cuando corresponda]
-- Neurolucida 360 / Neurolucida Explorer [cuando corresponda]
+- NeuronStudio
+- Neurolucida 360 / Neurolucida Explorer
 
 ## Paquetes de Python
 
@@ -122,7 +123,6 @@ Las dependencias principales pueden listarse en:
 ```text
 requisitos_python.txt
 ```
-[COMPLETAR: agregar librerías efectivamente utilizadas, por ejemplo pandas, numpy, matplotlib, scikit-image, scipy, statsmodels, openpyxl, etc.]
 
 ## Datos
 
