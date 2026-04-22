@@ -10,6 +10,7 @@ El repositorio incluye:
 - scripts en Python para análisis de métricas derivadas de imágenes, análisis multivariado conductual y análisis estadísticos;
 - scripts en R para análisis específicos complementarios;
 - protocolos resumidos de los análisis incluidos en la tesis;
+- una ficha técnica con los parámetros de adquisición microscópica utilizados para generar las imágenes de entrada de los análisis incluidos en el repositorio;
 - documentación que vincula cada archivo con los análisis y métricas reportados en el manuscrito.
 
 ## Estructura general
@@ -24,6 +25,7 @@ repositorio_tesis_doctoral/
 ├── documentacion/
 │   ├── vision_general.md
 │   ├── correspondencia_con_tesis.md
+│   ├── parametros_adquisicion_microscopica.md
 │   ├── protocolos/
 │   └── fuentes/
 │
@@ -94,13 +96,17 @@ Cada carpeta incluye documentación específica sobre:
 ## Relación con la tesis
 
 Este repositorio fue organizado para complementar la descripción metodológica de la tesis doctoral. La correspondencia entre los archivos aquí incluidos y los análisis reportados en el manuscrito se detalla en:
-```text
-documentacion/correspondencia_con_tesis.md
-```
+
+`documentacion/correspondencia_con_tesis.md`
+
 Los protocolos resumidos asociados a cada análisis se encuentran en:
-```text
-documentacion/protocolos/
-```
+
+`documentacion/protocolos/`
+
+La ficha técnica de adquisición microscópica se encuentra en:
+
+`documentacion/parametros_adquisicion_microscopica.md`
+
 ## Requisitos y dependencias
 
 Los scripts incluidos fueron desarrollados principalmente en Python, R y Fiji/ImageJ.
