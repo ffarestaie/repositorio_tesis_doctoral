@@ -45,7 +45,7 @@ Este script realiza un análisis multivariado longitudinal de variables conductu
 
 ## Descripción
 
-Este script cuantifica la cobertura microglial a partir de imágenes TIFF binarias. Calcula la fracción del campo ocupada por señal microglial en cada stack, genera una tabla resumen por archivo, una tabla de control de calidad por slice y un PDF con gráficos exploratorios por animal.
+Este script cuantifica la cobertura microglial a partir de imágenes TIFF binarias del experimento 1. Calcula la fracción del campo ocupada por señal microglial en cada stack, genera una tabla resumen por archivo, una tabla de control de calidad por slice y un PDF con gráficos exploratorios por animal.
 
 ## Input
 
