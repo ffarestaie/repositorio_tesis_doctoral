@@ -6,8 +6,8 @@ Esta carpeta contiene scripts en Python utilizados para cálculo de métricas, a
 
 - `analisis_multivariado_longitudinal.py`: análisis multivariado longitudinal de conducta.
 - `calcular_cobertura_microglial.py`: cuantificación de cobertura microglial a partir de stacks binarios del EXP-001.
-- `calcular_contactos_exp_001.py`: cálculo de métricas de contactos microglia-dendrita para EXP-001.
-- `calcular_contactos_exp_002.py`: cálculo de métricas de contactos microglia-dendrita para EXP-002.
+- `calcular_contactos_exp_001.py`: cálculo de métricas de contactos microglía-dendrita para EXP-001.
+- `calcular_contactos_exp_002.py`: cálculo de métricas de contactos microglía-dendrita para EXP-002.
 - `analisis_estadistico_general.py`: análisis estadísticos generales.
 
 ## Uso general
