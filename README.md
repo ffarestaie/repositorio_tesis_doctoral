@@ -42,8 +42,6 @@ repositorio_tesis_doctoral/
 │   ├── calcular_cobertura_microglial.py
 │   ├── calcular_contactos_exp_001.py
 │   ├── calcular_contactos_exp_002.py
-│   ├── analisis_subtipos_espinas_exp_001.py
-│   ├── analisis_subtipos_espinas_exp_002.py
 │   └── analisis_estadistico_general.py
 │
 ├── scripts_r/
