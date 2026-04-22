@@ -77,3 +77,23 @@ Este script calcula métricas de contacto microglia-dendrita a partir de imágen
 
 - archivo `.csv` consolidado con una fila por imagen y sus métricas derivadas;
 - archivos `.pdf` con gráficos descriptivos por grupo experimental y por subtipo celular, cuando corresponda.
+
+---
+Análisis estadístico
+
+## Descripción
+
+Este script implementa un workflow estadístico general para métricas derivadas de los análisis de la tesis. Incluye validación estructural del dataset, tablas descriptivas, ANOVA factorial, modelos lineales mixtos, chequeo de supuestos sobre residuos, comparaciones post hoc y exportación de resultados en formatos `.txt`, `.json` y `.xlsx`.
+
+## Input
+
+- archivo `.csv` o `.xlsx` con el dataset curado;
+- una columna de identificación de animal;
+- una columna numérica con la métrica a analizar;
+- columnas categóricas correspondientes a los factores experimentales del diseño.
+
+## Output
+
+- archivo `.json` con metadata de la corrida;
+- archivo `.txt` con resumen de resultados;
+- archivo `.xlsx` con tablas descriptivas, tablas de diseño, ANOVA, efectos fijos del LMM, chequeo de supuestos y tablas post hoc.
