@@ -18,6 +18,7 @@ Cada script está asociado a un análisis específico y puede requerir archivos 
 
 La relación entre estos scripts y los análisis reportados en la tesis se resume en `documentacion/correspondencia_con_tesis.md`.
 
+---
 
 # Análisis multivariado longitudinal de la conducta
 
@@ -40,6 +41,7 @@ Este script realiza un análisis multivariado longitudinal de variables conductu
 - métricas de cambio longitudinal;
 - figuras de apoyo para visualización y control de calidad.
 
+---
 
 # Cobertura microglial
 
@@ -58,8 +60,9 @@ Este script cuantifica la cobertura microglial a partir de imágenes TIFF binari
 - archivo `microglia_coverage_per_slice.csv` con una fila por slice;
 - archivo `microglia_coverage_plots.pdf` con gráficos exploratorios por animal.
 
+---
 
-# Contactos microglia-dendrita EXP-001.py
+# Contactos microglia-dendrita EXP-001
 
 ## Descripción
 
