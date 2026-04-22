@@ -6,7 +6,6 @@ Este documento resume la relación entre los archivos incluidos en este reposito
 
 La correspondencia se presenta por tipo de análisis:
 
-- procedimientos generales;
 - análisis conductuales;
 - análisis de imágenes;
 - análisis estadísticos.
@@ -21,29 +20,7 @@ En cada caso se indica:
 
 ---
 
-## 1. Procedimientos generales
-
-### Cirugía estereotáxica para inducción de lesión con 6-OHDA
-- **Protocolo asociado:** `documentacion/protocolos/cirugia_6_ohda.md` **[COMPLETAR si el archivo final llevará otro nombre]**
-- **Código asociado:** no aplica
-- **Output principal:** lesión dopaminérgica unilateral para evaluación histológica y conductual
-- **Relación con la tesis:** procedimiento general utilizado para generar el modelo experimental
-
-### Perfusión transcardíaca y fijación tisular
-- **Protocolo asociado:** `documentacion/protocolos/perfusion_y_fijacion_tisular.md` **[COMPLETAR si el archivo final llevará otro nombre]**
-- **Código asociado:** no aplica
-- **Output principal:** tejido fijado para procesamiento histológico posterior
-- **Relación con la tesis:** procedimiento general de obtención y preservación de muestras
-
-### Inmunohistoquímica / inmunofluorescencia
-- **Protocolo asociado:** `documentacion/protocolos/inmunohistoquimica.md` **[COMPLETAR cuando esté disponible]**
-- **Código asociado:** no aplica
-- **Output principal:** cortes procesados para adquisición de imágenes
-- **Relación con la tesis:** preparación de muestras para cuantificaciones histológicas y morfológicas
-
----
-
-## 2. Análisis conductuales
+## 1. Análisis conductuales
 
 ### Índice de rotaciones en open field
 - **Protocolo asociado:** `documentacion/protocolos/rotaciones_open_field.md`
@@ -65,7 +42,7 @@ En cada caso se indica:
 
 ---
 
-## 3. Análisis de imágenes
+## 2. Análisis de imágenes
 
 ### Cuantificación de denervación dopaminérgica mediante TH
 - **Protocolo asociado:** `documentacion/protocolos/cuantificacion_th.md`
@@ -121,14 +98,14 @@ En cada caso se indica:
 
 ---
 
-## 4. Análisis estadístico general de variables conductuales e histológicas
+## 3. Análisis estadístico general de variables conductuales e histológicas
 - **Código asociado:** `scripts_python/analisis_estadistico_general.py`
 - **Output principal:** análisis estadísticos complementarios
 - **Relación con la tesis:** procesamiento estadístico general de variables derivadas de los experimentos
 
 ---
 
-## 5. Relación entre tipos de archivo
+## 4. Relación entre tipos de archivo
 
 En términos generales, la lógica del repositorio puede resumirse así:
 
@@ -138,7 +115,7 @@ En términos generales, la lógica del repositorio puede resumirse así:
 
 ---
 
-## 6. Observaciones
+## 5. Observaciones
 
 - Algunos análisis dependen de más de un archivo y deben interpretarse como un flujo de trabajo integrado.
 - En varios casos, las macros generan archivos de entrada que luego son procesados por scripts en Python o R.
