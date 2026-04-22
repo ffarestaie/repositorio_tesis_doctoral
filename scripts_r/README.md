@@ -16,6 +16,22 @@ Estos scripts reciben como entrada tablas generadas en etapas previas del flujo 
 Los protocolos resumidos asociados a estos análisis se encuentran en `documentacion/protocolos/`.
 
 ---
+# Subtipos de espinas
+
+## Descripción
+
+Este script procesa archivos `.txt` exportados desde NeuronStudio y cuenta la cantidad de espinas de cada subtipo morfológico por archivo. Consolida los resultados en una única tabla para su análisis posterior.
+
+## Input
+
+- carpeta con archivos `.txt` exportados desde NeuronStudio;
+- cada archivo debe contener una columna con la clasificación morfológica de espinas (`TYPE`).
+
+## Output
+
+- archivo `.csv` consolidado con una fila por archivo y el número de espinas de cada subtipo.
+
+---
 # Distancia al vecino mas cercano
 
 ## Descripción
