@@ -128,10 +128,6 @@ requisitos_python.txt
 
 Este repositorio no incluye los datos crudos completos utilizados en la tesis. Los scripts y macros se comparten con fines de transparencia metodológica, organización del flujo analítico y apoyo a la reproducibilidad.
 
-Cuando corresponde, pueden incluirse ejemplos mínimos de entrada y salida en la carpeta:
-```text
-ejemplos/
-```
 ## Estado del repositorio
 
 Este repositorio contiene versiones organizadas de los scripts y macros utilizados durante el doctorado. Algunos archivos fueron adaptados para mejorar su legibilidad, documentación y reutilización.
