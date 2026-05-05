@@ -15,7 +15,7 @@ Contar el número de somas microgliales por imagen y registrar las coordenadas X
 1. Abrir el stack en Fiji/ImageJ.
 2. Convertir la imagen a 8 bits.
 3. Generar una proyección máxima en Z.
-4. Identificar visualmente cada soma completo y marcar su centro con la herramienta `Multi-point`. Si una célula en división presenta dos cuerpos celulares distinguibles, registrar dos puntos.
+4. Identificar visualmente cada soma completo en las dos dimensiones (X,Y) y marcar su centro con la herramienta `Multi-point`. Si una célula en división presenta dos cuerpos celulares distinguibles, registrar dos puntos.
 5. Medir las selecciones para obtener una tabla con coordenadas X,Y.
 6. Exportar la tabla de resultados como CSV y guardar también el archivo ROI.
 
