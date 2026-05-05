@@ -15,16 +15,17 @@ Cuantificar la densidad de espinas dendríticas y la proporción de subtipos mor
 
 1. Abrir la imagen original en Fiji/ImageJ.
 2. Guardarla en formato TIFF.
-3. Rotar la imagen para alinear horizontalmente la dendrita de interés y guardar la imagen rotada.
-4. Trazar una línea a lo largo del segmento dendrítico de interés.
-5. Generar una ROI rectangular centrada en esa línea con altura suficiente para incluir la dendrita y todas sus espinas.
-6. Recortar la ROI.
-7. AQUI EMPIEZA EL MACRO: pide carpeta input con las imagenes .tiff generadas en los pasos anteriores, y corre en batch lo siguiente:
-8. Convertir la imagen a 8 bits.
-9. Mejorar el contraste con `Enhance Contrast` utilizando `Saturated Pixels = 0.3%`.
-10. Aplicar `Subtract Background` con radio 50 px.
-11. Guardar la imagen final procesada en formato TIFF.
-12. AQUI TERMINA EL MACRO
+3. Seleccionar la dendrita de interés. Se analizaron dendritas proximales al soma, excluyendo el segmento inicial no espinoso adyacente al cuerpo celular.
+4. Rotar la imagen para alinear horizontalmente la dendrita de interés y guardar la imagen rotada.
+5. Trazar una línea a lo largo del segmento dendrítico de interés.
+6. Generar una ROI rectangular centrada en esa línea con altura suficiente para incluir la dendrita y todas sus espinas.
+7. Recortar la ROI.
+8. AQUI EMPIEZA EL MACRO: pide carpeta input con las imagenes .tiff generadas en los pasos anteriores, y corre en batch lo siguiente:
+9. Convertir la imagen a 8 bits.
+10. Mejorar el contraste con `Enhance Contrast` utilizando `Saturated Pixels = 0.3%`.
+11. Aplicar `Subtract Background` con radio 50 px.
+12. Guardar la imagen final procesada en formato TIFF.
+13. AQUI TERMINA EL MACRO
 
 ## Etapa 2. Cuantificación en NeuronStudio
 
