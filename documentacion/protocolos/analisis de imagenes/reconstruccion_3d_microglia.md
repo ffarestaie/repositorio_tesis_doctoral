@@ -32,7 +32,7 @@ La reconstrucción se realiza directamente sobre la señal cruda en 3D. El soma 
 2. **Longitud de proyecciones acumuladas**: suma de la longitud de todos los segmentos reconstruidos de los procesos microgliales en la célula analizada.
 3. **Intersecciones acumuladas**: suma total de las intersecciones registradas en todos los radios del análisis de Sholl aplicado a la reconstrucción celular.
 4. **Valor crítico**: número máximo de intersecciones observado en un radio dado del análisis de Sholl.
-5. **Radio pico**: distancia radial al soma en la que se observa el valor máximo de intersecciones del análisis de Sholl.
+5. **Radio crítico**: distancia radial al soma en la que se observa el valor máximo de intersecciones del análisis de Sholl.
 
 ## Parámetros críticos
 
