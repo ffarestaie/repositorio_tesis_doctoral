@@ -58,7 +58,7 @@ La cuantificación se realiza sobre un segmento dendrítico previamente procesad
 3. **Densidad de espinas**: número total de espinas expresado por 10 µm de longitud dendrítica.
 4. **Proporción de subtipos**: proporción de espinas `mushroom`, `thin`, `stubby` y `filopodia` respecto del total de espinas del segmento o del grupo analizado.
 5. **Delta de cambio por subtipo**: variación de la proporción de cada subtipo respecto del grupo de referencia.
-   - En `EXP-001`, el grupo de referencia es `S1/CONTRA`.
+   - En `EXP-001`, el grupo de referencia es `CONTRA` de cada punto temporal.
    - En `EXP-002`, el grupo de referencia es `sham/veh`.
 
 ## Parámetros críticos
