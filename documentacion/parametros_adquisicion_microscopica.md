@@ -38,7 +38,7 @@ Las imágenes se adquirieron sobre cortes coronales de estriado, orientando el m
 
 **Parámetros**
 - objetivo: `20×`;
-- espesor de stack: aproximadamente `20 µm`;
+- espesor de stack: `20 µm`;
 - `z-step`: `1 µm`;
 - canal: `Far Red` para señal Iba1;
 - intensidad de lámpara: `100 %`;
@@ -53,7 +53,7 @@ Las imágenes se adquirieron sobre cortes coronales de estriado, orientando el m
 
 **Parámetros**
 - objetivo: `40×`;
-- espesor de stack: aproximadamente `20–25 µm`;
+- espesor de stack: `25 µm`;
 - `z-step`: `1 µm`;
 - canal: `Far Red` para señal Iba1;
 - intensidad de lámpara: `100 %`;
@@ -67,7 +67,7 @@ Las imágenes se adquirieron sobre cortes coronales de estriado, orientando el m
 
 **Parámetros**
 - objetivo: `40×`;
-- espesor de stack: aproximadamente `20–25 µm`;
+- espesor de stack: `25 µm`;
 - `z-step`: `1 µm`;
 - canal Iba1: `Far Red`, tiempo de exposición `1500 ms`;
 - canal GFP: tiempo de exposición `200 ms`;
