@@ -100,8 +100,9 @@ En cada caso se indica:
 
 ## 3. Análisis estadístico general de variables conductuales e histológicas
 - **Código asociado:** `scripts_python/analisis_estadistico_general.py`
-- **Output principal:** análisis estadísticos complementarios
-- **Relación con la tesis:** procesamiento estadístico general de variables derivadas de los experimentos
+- **Código complementario:** `scripts_python/analisis_chi2_contribuciones.py`
+- **Output principal:** análisis estadísticos complementarios para variables continuas y categóricas. El análisis de tablas de contingencia incluye prueba de chi-cuadrado de independencia, frecuencias esperadas, contribución absoluta de cada celda y aporte porcentual al estadístico χ² total.
+- **Relación con la tesis:** procesamiento estadístico general de variables derivadas de los experimentos, incluyendo variables conductuales, histológicas, morfométricas y distribuciones categóricas como los subtipos de espinas dendríticas.
 
 ---
 
