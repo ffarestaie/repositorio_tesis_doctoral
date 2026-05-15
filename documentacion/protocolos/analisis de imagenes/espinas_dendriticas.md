@@ -15,7 +15,7 @@ Cuantificar la densidad de espinas dendríticas y la proporción de subtipos mor
 
 1. Abrir la imagen original en Fiji/ImageJ.
 2. Guardarla en formato TIFF.
-3. Seleccionar la dendrita de interés. Se analizaron dendritas proximales al soma, excluyendo el segmento inicial no espinoso adyacente al cuerpo celular.
+3. Seleccionar la dendrita de interés. Se analizaron dendritas proximales al soma, excluyendo el segmento inicial no espinoso adyacente al cuerpo celular. La longitud mínima de dendrita analizada es de 40 μm.
 4. Rotar la imagen para alinear horizontalmente la dendrita de interés y guardar la imagen rotada.
 5. Trazar una línea a lo largo del segmento dendrítico de interés.
 6. Generar una ROI rectangular centrada en esa línea con altura suficiente para incluir la dendrita y todas sus espinas.
